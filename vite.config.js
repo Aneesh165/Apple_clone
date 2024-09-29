@@ -4,4 +4,9 @@ import react from '@vitejs/plugin-react-swc'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/Apple_clone/', 
+  build: {
+    outDir: 'dist',
+    chunkSizeWarningLimit: 1000, // Increase limit to 1000kB or more
+  }
 })
