@@ -7,6 +7,6 @@ export default defineConfig({
   base: '/Apple_clone/', 
   build: {
     outDir: 'dist',
-    chunkSizeWarningLimit: 1000, // Increase limit to 1000kB or more
+    chunkSizeWarningLimit: 2000, // Increase limit to 1000kB or more
   }
 })
